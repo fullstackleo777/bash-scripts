@@ -37,11 +37,11 @@ To set up your Parrot OS system to autostart applications in a specific order wh
      sleep 2
 
      # Start Caja file manager
-     caja &
-     sleep 2
+     # caja &
+     # sleep 2
 
      # Start VSCodium
-     vscodium &
+     codium &
      sleep 2
 
      # Start ProtonVPN

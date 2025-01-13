@@ -10,11 +10,11 @@ keepassxc &
 sleep 2
 
 # Start Caja file manager
-caja &
-sleep 2
+# caja &
+# sleep 2
 
 # Start VSCodium
-vscodium &
+codium &
 sleep 2
 
 # Start ProtonVPN
