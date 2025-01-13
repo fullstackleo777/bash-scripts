@@ -45,11 +45,11 @@ To set up your Parrot OS system to autostart applications in a specific order wh
      sleep 2
 
      # Start ProtonVPN
-     protonvpn &
-     sleep 2
+     # protonvpn &
+     # sleep 2
 
      # Start Brave Browser
-     brave &
+     brave-browser --incognito &
      ```
 
      The `sleep 2` ensures a 2-second delay between the launches. You can adjust the delay as necessary for your system’s performance.

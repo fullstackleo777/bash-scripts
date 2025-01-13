@@ -18,8 +18,8 @@ codium &
 sleep 2
 
 # Start ProtonVPN
-protonvpn &
-sleep 2
+# protonvpn &
+# sleep 2
 
 # Start Brave Browser
-brave &
+brave-browser --incognito &
