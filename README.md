@@ -1,5 +1,5 @@
 # bash-scripts
-General use custom .bashrc files
+General use custom .bashrc and .sh files
 
 ## Instructions
 
