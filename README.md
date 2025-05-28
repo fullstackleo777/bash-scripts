@@ -1,3 +1,5 @@
+![Bash Scripts Cover Image](https://raw.githubusercontent.com/fullstackleo777/covers/refs/heads/main/covers/bash-scripts/cover_bash-scripts.png)
+
 # bash-scripts
 General use custom .sh files
 
