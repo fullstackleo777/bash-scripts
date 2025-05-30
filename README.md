@@ -5,8 +5,8 @@ General use custom .sh files
 
 ## Instructions
 
-These scripts are modular and can be saved in a `~/bin/` directory for easy access.
+These scripts are modular and can be saved in a `~/bin/` directory for easy access. Save as `.sh` files.
 
-Make them executable with:
+Make them executable with: `chmod +x script_name.sh `
 
-`chmod +x script_name.sh `
+## Automate Everything, Control The System
