@@ -10,3 +10,5 @@ These scripts are modular and can be saved in a `~/bin/` directory for easy acce
 Make them executable with: `chmod +x script_name.sh `
 
 ## Automate Everything, Control The System
+
+___
