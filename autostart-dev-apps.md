@@ -26,30 +26,25 @@ To set up your Parrot OS system to autostart applications in a specific order wh
    - Add the following content to the script to start the applications in the desired order, with small delays between each launch:
 
      ```bash
-     #!/bin/bash
-
-     # Start Terminal
-     gnome-terminal &
-     sleep 2
-
-     # Start KeePassXC
-     keepassxc &
-     sleep 2
-
-     # Start Caja file manager
-     # caja &
-     # sleep 2
-
-     # Start VSCodium
-     codium &
-     sleep 2
-
-     # Start ProtonVPN
-     # protonvpn &
-     # sleep 2
-
-     # Start Brave Browser
-     brave-browser --incognito &
+      #!/bin/bash
+      
+      # Must Sleep A Bit For System Startup
+      sleep 4
+      
+      # Start KeePassXC
+      keepassxc &
+      sleep 2
+      
+      # Start Brave Browser
+      brave-browser --incognito &
+      sleep 2
+      
+      # Start VSCodium
+      codium &
+      sleep 2
+      
+      # Start Terminal
+      gnome-terminal &
      ```
 
      The `sleep 2` ensures a 2-second delay between the launches. You can adjust the delay as necessary for your system’s performance.
@@ -74,7 +69,7 @@ To set up your Parrot OS system to autostart applications in a specific order wh
    Alternatively, you can add it directly by editing the autostart configuration file:
 
    ```bash
-   nano ~/.config/autostart/custom-autostart.desktop
+   vim ~/.config/autostart/custom-autostart.desktop
    ```
 
    Add the following content:
@@ -90,4 +85,4 @@ To set up your Parrot OS system to autostart applications in a specific order wh
 ### 6. **Reboot or Log Out and Log Back In**
    Now, when you log back into your Parrot OS system, the applications will start in the specified order.
 
----
+___
